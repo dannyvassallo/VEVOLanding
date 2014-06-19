@@ -1,0 +1,34 @@
+.graphic-wrapper{
+width: 100%;
+height: auto;
+position: relative;
+background-image: url(http://pullzone.vydiainc.netdna-cdn.com/wp-content/uploads/2014/02/quote.jpg);
+background-size: cover;
+padding: 20px 0 20px 0;
+	.graphic-container{
+		position: relative;
+		max-width: 900px;
+		display: block;
+		color: #fff;
+		margin: 0 auto;
+		overflow: auto;
+		z-index: 99;
+			.right-graphic-pane{
+				width: 30%;
+				padding: 20px;
+				float: right;
+			}
+			.left-graphic-pane{
+				float: left;
+				width: 70%;
+				padding: 20px;
+			}
+			.graphpad{
+				padding: 20px 0 20px 0;
+			}
+			.graphpad{
+				padding: 20px 0 20px 20px;
+			}
+	}
+}
+

@@ -1,0 +1,31 @@
+.footer-container{
+		max-width: 900px;
+		margin: 0 auto;
+		display: block;
+		overflow: auto;
+		p {
+			font-size: 10px;
+			color: #fff;
+			padding: 50px 0 0 0;
+		}
+}
+.socials{
+	float: right;	
+	i{
+		font-size: 50px;
+		color: white;
+		padding: 10px 5px 10px 5px;
+		}
+}
+.share{
+margin: 0 auto;
+width: 155px;
+height: 65px;
+float: left;
+padding: 10px 5px 10px 5px;
+
+}
+button.btn.btn-lg.btn-primary{
+background-color: #33a2ca !important;
+}
+

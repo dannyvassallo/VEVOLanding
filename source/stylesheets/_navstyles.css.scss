@@ -1,0 +1,17 @@
+body{
+    background-color: #000;    
+}
+
+#header{
+    width: 100%;
+    .navbarwrap, .navbar{
+        background-color: #fff;
+        min-height: 95px;
+        margin: 0 auto;
+        border: none;
+    }
+    .navbar{
+        max-width: 900px;
+    }
+}
+
