@@ -2,33 +2,73 @@
 width: 100%;
 height: auto;
 position: relative;
-background-image: url(http://pullzone.vydiainc.netdna-cdn.com/wp-content/uploads/2014/02/quote.jpg);
+background-image: url(../images/andybackground.jpg);
 background-size: cover;
 padding: 20px 0 20px 0;
-	.graphic-container{
-		position: relative;
-		max-width: 900px;
-		display: block;
-		color: #fff;
-		margin: 0 auto;
-		overflow: auto;
-		z-index: 99;
-			.right-graphic-pane{
-				width: 30%;
-				padding: 20px;
-				float: right;
-			}
-			.left-graphic-pane{
-				float: left;
-				width: 70%;
-				padding: 20px;
-			}
-			.graphpad{
-				padding: 20px 0 20px 0;
-			}
-			.graphpad{
-				padding: 20px 0 20px 20px;
-			}
-	}
+h1{
+font-size: 40px;
+}
+i {
+font-size: 26px;
+padding-right: 10px;
+}
+p{
+font-size: 26px;
+font-weight: 400;
+}
+.row{
+max-width: 100%;
+}
+.subtext{
+font-size: 20px;
+font-weight: 300;
+padding-left: 40px;
+margin-top: -15px;
+}
+  .graphic-container{
+    position: relative;
+    //max-width: 900px;
+    display: block;
+    color: #fff;
+    margin: 0 auto;
+    overflow: auto;
+    z-index: 99;
+      .right-graphic-pane{
+        width: 30%;
+        padding: 20px;
+        float: right;
+      }
+      .left-graphic-pane{
+        float: left;
+        width: 70%;
+        padding: 20px;
+      }
+      /*.graphpad{
+        padding: 20px 0 20px 0;
+      }
+      .graphpad{
+        padding: 20px 0 20px 20px;
+      }*/
+  }
+}
+.headertext{
+margin-top: 100px;
 }
 
+.info{
+margin: 0 auto;
+max-width: 600px;
+}
+
+
+#email{
+  color: #eee;
+  box-shadow: none !important;
+  margin-top: 5px;
+  margin-right: 20px;
+}
+
+  input.btn.btn-lg.btn-primary {
+border-radius: 75px;
+box-shadow: none !important;
+}

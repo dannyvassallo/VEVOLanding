@@ -1,3 +1,29 @@
+<div id="fb-root"></div>
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '1429387697338033', // App ID
+      channelUrl : 'http://0.0.0.0:4567', // Channel File
+      status     : true, // check login status
+      cookie     : true, // enable cookies to allow the server to access the session
+      xfbml      : true  // parse XFBML
+    });
+
+    // Additional initialization code here
+  };
+
+  // Load the SDK Asynchronously
+  (function(d){
+     var js, id = 'facebook-jssdk', ref = d.getElementsByTagName('script')[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement('script'); js.id = id; js.async = true;
+     js.src = "//connect.facebook.net/en_US/all.js";
+     ref.parentNode.insertBefore(js, ref);
+   }(document));
+</script>
+
+
+
         
         <header id="header">
         <div class="navbarwrap">
@@ -13,7 +39,7 @@
                 </div>
                                 <div class="collapse navbar-collapse navbar-ex1-collapse">
                     <div class="navbar-right">
-                                                                                    <a class="btn btn-lg btn-primary navbar-btn" href="http://vydia.com/services">GET ON VEVO!</a>                         
+                                                                                    <a id="geton" class="btn btn-lg btn-primary navbar-btn" href="http://vydia.com/services">GET ON VEVO!</a>                         
                     </div>
                 </div>
             </nav>

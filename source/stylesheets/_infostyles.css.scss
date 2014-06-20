@@ -6,24 +6,32 @@ $bgcolor: #fff;
 width: 100%;
 background-color: $bgcolor;
 height: auto;
-	.info-container{
-		max-width: 900px;
-		background-color: $bgcolor;
-		display: block;
-		color: #000;
-		margin: 0 auto;
-		overflow: auto;
-			.right-info-pane, .left-info-pane{
-				width: 50%;
-				padding: 20px;
-			}
-			.right-info-pane{
-				float: right;
-			}
-			.left-info-pane{
-				float: left;
-			}
-	}
+  .info-container{
+    max-width: 900px;
+    background-color: $bgcolor;
+    display: block;
+    color: #000;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 50px 0 50px 0;
+      .right-info-pane, .left-info-pane{
+        width: 50%;
+        padding: 20px;
+        @media (max-width: 640px) {
+          width: 100%;
+          display:block;
+          float: none;
+        }
+      }
+      .right-info-pane{
+        float: right;
+      }
+      .left-info-pane{
+        float: left;
+      }
+      h1{
+        color: #33a2ca;
+      }
+  }
 }
-
 
