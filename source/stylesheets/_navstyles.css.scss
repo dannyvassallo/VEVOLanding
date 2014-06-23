@@ -4,18 +4,19 @@ body{
 
 #header{
     width: 100%;
+    
     .navbarwrap, .navbar{
         background-color: #fff;
-        min-height: 95px;
         margin: 0 auto;
         border: none;
     }
+    
     .navbar{
-        //max-width: 900px;
+        max-width: 1200px;
     }
+    
     .btn.btn-lg.btn-primary{
     border-radius: 75px;
     box-shadow: none !important;    
     }
 }
-
